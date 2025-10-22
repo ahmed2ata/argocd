@@ -8,7 +8,7 @@ spec:
     project: default
     source:
         repoURL: git@github.com:ahmed2ata/argocd.git
-        path: mainifests/redis
+        path: /home/ahmed/argocd/argocd/redis
         targetRevision: main
     destination:
         server: 'https://kubernetes.default.svc'
